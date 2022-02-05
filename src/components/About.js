@@ -2,7 +2,7 @@ import React from "react";
 import { RiArrowRightUpLine } from "react-icons/ri";
 export default function About() {
   return (
-    <div className="bg-white lg:my-10 container mx-auto py-20 px-3">
+    <div id="about" className="bg-white lg:my-10 container mx-auto py-20 px-3">
       <div className="lg:flex lg:mb-20 justify-between items-end">
         <div>
           <h1 className="text-2xl font-semibold headline  lg:text-3xl">

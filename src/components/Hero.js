@@ -4,7 +4,10 @@ import "./style.css";
 
 export default function Hero() {
   return (
-    <div className="px-3  mt-36 lg:mt-16 lg:flex lg:items-center justify-between container mx-auto lg:gap-12">
+    <div
+      id="home"
+      className="px-3  mt-36 lg:mt-16 lg:flex lg:items-center justify-between container mx-auto lg:gap-12"
+    >
       <div className=" lg:mt-32 mb-0 lg:max-w-3xl">
         <h1 className="text-[2.5rem] leading-[3.3rem] lg:leading-[6rem] lg:text-[5.1rem] lg:fontbold font-extrabold">
           <span className="text-black headline">I design products</span> that
@@ -19,7 +22,9 @@ export default function Hero() {
             <span>Book a call</span>
           </button>
           <button className="border gap-2 shadow flex items-center rounded lg:p-4 lg:px-10 text-black p-2 px-6">
-            <span>explore</span>
+            <span>
+              <a href="#project">explore</a>
+            </span>
             <MdArrowRightAlt />
           </button>
         </div>

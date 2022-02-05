@@ -2,7 +2,7 @@ import React from "react";
 import { HiArrowSmRight } from "react-icons/hi";
 export default function Blogs() {
   return (
-    <div className="bg-black  px-3 -mt-60 pt-96 lg:pt-72 ">
+    <div id="blog" className="bg-black  px-3 -mt-60 pt-96 lg:pt-72 ">
       <div className="container lg:flex justify-between mx-auto">
         <div>
           <h1 className="text-pink-600 text-2xl lg:text-3xl">BLOGS</h1>

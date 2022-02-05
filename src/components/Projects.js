@@ -5,7 +5,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 export default function Projects() {
   return (
-    <div className="px-3 lg:mt-40 container mx-auto">
+    <div id="project" className="px-3 lg:mt-40 container mx-auto">
       <div>
         <div className="lg:flex justify-between items-center lg:my-14">
           <div>
