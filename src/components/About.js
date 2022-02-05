@@ -125,8 +125,8 @@ export default function About() {
                   M
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="text-xl lg:text-2xl">Montech studios</h1>
-                  <p>Quality assurance</p>
+                  <h1 className="text-xl lg:text-2xl">Lenx</h1>
+                  <p>Full stack developer</p>
                 </div>
               </div>
               <ul className="list-disc text-right px-4 mt-4">
@@ -144,8 +144,8 @@ export default function About() {
                   M
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="text-xl lg:text-2xl">Montech studios</h1>
-                  <p>Quality assurance</p>
+                  <h1 className="text-xl lg:text-2xl">Upwork Freelancer</h1>
+                  <p>Frontend developer</p>
                 </div>
               </div>
               <ul className="list-disc text-right px-4 mt-4">
