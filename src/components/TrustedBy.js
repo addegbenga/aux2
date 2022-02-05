@@ -11,28 +11,28 @@ export default function TrustedBy() {
         MY TECHNOLOGIES
       </h1>
       <div className="grid grid-cols-3  my-10">
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <FaReact size={30} />
+        <div className=" p-4 text-center lg:text-xl flex-col border flex items-center gap-2">
+          <FaReact className="lg:text-7xl text-3xl" />
           <span>REACT</span>
         </div>
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <SiTypescript size={30} />
+        <div className=" p-4 text-center lg:text-xl  flex-col border flex items-center gap-2">
+          <SiTypescript className="lg:text-7xl text-3xl" />
           <span>TYPESCRIPT</span>
         </div>{" "}
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <DiJavascript1 size={30} />
+        <div className=" p-4 text-center lg:text-xl  flex-col border flex items-center gap-2">
+          <DiJavascript1 className="lg:text-7xl text-3xl" />
           <span>JAVASCRIPT</span>
         </div>
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <SiFirebase size={30} />
+        <div className=" p-4 text-center lg:text-xl  flex-col border flex items-center gap-2">
+          <SiFirebase className="lg:text-7xl text-3xl" />
           <span>FIREBASE</span>
         </div>
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <FaReact size={30} />
+        <div className=" p-4 text-center lg:text-xl  flex-col border flex items-center gap-2">
+          <FaReact className="lg:text-7xl text-3xl" />
           <span>TAILWIND</span>
         </div>
-        <div className=" p-4 text-center flex-col border flex items-center gap-2">
-          <IoLogoNodejs size={30} />
+        <div className=" p-4 text-center lg:text-xl  flex-col border flex items-center gap-2">
+          <IoLogoNodejs className="lg:text-7xl text-3xl" />
           <span>NODEJS</span>
         </div>
       </div>
