@@ -7,10 +7,12 @@ import Services from "../components/Services";
 import TrustedBy from "../components/TrustedBy";
 import Blogs from "../components/Blogs";
 import About from "../components/About";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 export default function Landing() {
   return (
-    <div className="container mx-auto ">
+    <div className=" ">
       <Navbar />
       <Hero />
       <TrustedBy />
@@ -18,6 +20,8 @@ export default function Landing() {
       <Projects />
       <Blogs />
       <About />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
