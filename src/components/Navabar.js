@@ -11,18 +11,13 @@ export default function Navabar() {
           </h1>
           <div className="hidden lg:block ">
             <ul className="lg:flex font-bold gap-20">
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#service">Services</a>
-              </li>
-              <li>
-                <a href="#project">Projects</a>
-              </li>
-              <li>
-                <a href="#blog">Blog</a>
-              </li>
+              <a href="#about">About</a>
+
+              <a href="#service">Services</a>
+
+              <a href="#project">Projects</a>
+
+              <a href="#blog">Blog</a>
             </ul>
           </div>
           <span className="lg:hidden">
