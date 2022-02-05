@@ -5,13 +5,13 @@ import "./style.css";
 export default function Hero() {
   return (
     <div className="px-3  mt-36 lg:mt-16 lg:flex lg:items-center justify-between container mx-auto lg:gap-12">
-      <div className=" lg:my-32 mb-0 lg:max-w-3xl">
+      <div className=" lg:mt-32 mb-0 lg:max-w-3xl">
         <h1 className="text-[2.5rem] leading-[3.3rem] lg:leading-[6rem] lg:text-[5.1rem] lg:fontbold font-extrabold">
           <span className="text-black headline">I design products</span> that
-          delight and inspire people.{" "}
+          delight and inspire people.
         </h1>
         <p className="my-6 lg:text-xl mb-10">
-          Hi! I'm jake, a frontend developer based in nigeria. Icreate
+          Hi! I'm jake, a frontend developer based in nigeria. I create
           user-frindly interfaces for fast growing and established companies
         </p>
         <div className="flex gap-2 ">
@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="flex  lg:hidden my-14 justify-center">
         <img className="w-2/3" src="/assets/dope9.webp" alt="png" />
       </div>
-      <div className="flex hidden lg:block mb-20  lg:my-14 justify-center">
+      <div className="flex hidden lg:block mb-20   lg:my-14 justify-center">
         <img className="w-1/2 lg:w-full " src="/assets/hero.png" alt="png" />
       </div>
     </div>
