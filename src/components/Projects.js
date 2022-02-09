@@ -57,7 +57,7 @@ export default function Projects() {
           <Slider {...settings_3}>
             <div className=" border bg-white">
               <img
-                className="h-44 w-full  lg:h-80"
+                className=" w-full  h-80"
                 src="/assets/banner.png"
                 alt="banner"
               />
@@ -76,7 +76,7 @@ export default function Projects() {
             </div>
             <div className=" border  lg:block bg-white">
               <img
-                className="h-44 w-full lg:h-80"
+                className=" w-full h-80"
                 src="/assets/banner.png"
                 alt="banner"
               />
@@ -95,7 +95,7 @@ export default function Projects() {
             </div>
             <div className=" border  lg:block bg-white">
               <img
-                className="h-44 w-full  lg:h-80"
+                className=" w-full  h-80"
                 src="/assets/banner.png"
                 alt="banner"
               />
@@ -114,7 +114,7 @@ export default function Projects() {
             </div>
             <div className=" border  lg:block bg-white">
               <img
-                className="h-44 w-full  lg:h-80"
+                className="w-full  h-80"
                 src="/assets/banner.png"
                 alt="banner"
               />
