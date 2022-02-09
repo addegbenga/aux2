@@ -1,6 +1,4 @@
 import React from "react";
-import { MdKeyboardArrowLeft } from "react-icons/md";
-import { MdKeyboardArrowRight } from "react-icons/md";
 import { HiArrowSmRight } from "react-icons/hi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -138,14 +136,14 @@ export default function Projects() {
           </Swiper>
         </div>
 
-        <div className="flex justify-end mt-6">
+        {/* <div className="flex justify-end mt-6">
           <button className="bg-white p-3">
             <MdKeyboardArrowLeft size={24} />
           </button>
           <button className="bg-white p-3">
             <MdKeyboardArrowRight size={24} />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
