@@ -45,7 +45,7 @@ export default function About() {
 
       {/* Experience and educations container */}
       <div className="lg:flex lg:gap-12   ">
-        {/* educations sectiondhdjhk */}
+        {/*   */}
         <div className="my-20 lg:w-1/2 ">
           <h1 className="text-2xl lg:text-4xl font-semibold">Education</h1>
           <div className="flex lg:gap-6   justify-between border-b py-8">
