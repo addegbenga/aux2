@@ -110,7 +110,7 @@ export default function About() {
                   <p>Quality assurance</p>
                 </div>
               </div>
-              <ul className="list-disc text-right px-4 mt-4">
+              <ul className="list-disc lg:text-right px-4 mt-4">
                 <li>2022 - Current</li>
               </ul>
             </div>
@@ -129,7 +129,7 @@ export default function About() {
                   <p>Full stack developer</p>
                 </div>
               </div>
-              <ul className="list-disc text-right px-4 mt-4">
+              <ul className="list-disc lg:text-right px-4 mt-4">
                 <li>2020-2021 </li>
               </ul>
             </div>
@@ -148,7 +148,7 @@ export default function About() {
                   <p>Frontend developer</p>
                 </div>
               </div>
-              <ul className="list-disc text-right px-4 mt-4">
+              <ul className="list-disc lg:text-right px-4 mt-4">
                 <li>2019-2021 - part time</li>
               </ul>
             </div>
