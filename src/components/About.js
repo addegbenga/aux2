@@ -51,12 +51,12 @@ export default function About() {
           <div className="flex lg:gap-6   justify-between border-b py-8">
             <div className="flex lg:w-full lg:justify-between lg:items-end lg:flex-row  flex-col lg:flex-row gap-3">
               <div>
-                <h1 className="text-xl lg:text-2xl">Stanford university</h1>
-                <p>Msc (Human Computer interaction)</p>
+                <h1 className="text-xl lg:text-2xl">Fashion school</h1>
+                <p>Trainee (Fabric Designer)</p>
               </div>
 
               <ul className="list-disc px-4 mt-4">
-                <li>2013-2015</li>
+                <li>2014-2015</li>
               </ul>
             </div>
             <span>
@@ -66,12 +66,12 @@ export default function About() {
           <div className="flex lg:gap-6   justify-between border-b py-8">
             <div className="flex lg:w-full lg:justify-between lg:items-end lg:flex-row  flex-col lg:flex-row gap-3">
               <div>
-                <h1 className="text-xl lg:text-2xl">Stanford university</h1>
-                <p>Msc (Human Computer interaction)</p>
+                <h1 className="text-xl lg:text-2xl">Federal university</h1>
+                <p>Bsc (Earth Science)</p>
               </div>
 
               <ul className="list-disc px-4 mt-4">
-                <li>2013-2015</li>
+                <li>2015-2022</li>
               </ul>
             </div>
             <span>
@@ -81,12 +81,12 @@ export default function About() {
           <div className="flex lg:gap-6   justify-between border-b py-8">
             <div className="flex lg:w-full lg:justify-between lg:items-end lg:flex-row  flex-col lg:flex-row gap-3">
               <div>
-                <h1 className="text-xl lg:text-2xl">Stanford university</h1>
-                <p>Msc (Human Computer interaction)</p>
+                <h1 className="text-xl lg:text-2xl">Federal university</h1>
+                <p>Msc (Information technology)</p>
               </div>
 
               <ul className="list-disc px-4 mt-4">
-                <li>2013-2015</li>
+                <li>2022-present</li>
               </ul>
             </div>
             <span>
@@ -111,7 +111,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc text-right px-4 mt-4">
-                <li>2013-2015 - current</li>
+                <li>2022 - Current</li>
               </ul>
             </div>
             <span>
@@ -130,7 +130,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc text-right px-4 mt-4">
-                <li>2013-2015 - current</li>
+                <li>2020-2021 </li>
               </ul>
             </div>
             <span>
@@ -149,7 +149,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc text-right px-4 mt-4">
-                <li>2013-2015 - current</li>
+                <li>2019-2021 - part time</li>
               </ul>
             </div>
             <span>
