@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import "./style.css";
+import { projectData } from "../utils/data";
 export default function Projects() {
   return (
     <div id="project" className="px-3 lg:mt-40 container mx-auto">
@@ -49,101 +50,27 @@ export default function Projects() {
             }}
             className="mySwiper"
           >
-            <SwiperSlide>
-              <div className=" border bg-white">
-                <img
-                  className=" w-full  h-80"
-                  src="/assets/banner.png"
-                  alt="banner"
-                />
-                <div className="my-10 mt-7 px-4">
-                  <h1 className="font-semibold text-sm lg:text-lg headline">
-                    WEB DESIGN
-                  </h1>
-                  <h1 className="my-4 font-bold text-black text-opacity-60">
-                    joggr Website Design
-                  </h1>
-                  <button className="flex items-center gap-2">
-                    View project
-                    <HiArrowSmRight />
-                  </button>
+            {projectData.map((item, idx) => (
+              <SwiperSlide key={idx}>
+                <div className=" border bg-white">
+                  <img className=" w-full  h-80" src={item.img} alt="banner" />
+                  <div className="my-10 mt-7 px-4">
+                    <h1 className="font-semibold text-sm lg:text-lg headline">
+                      {item.title}
+                    </h1>
+                    <h1 className="my-4 font-bold text-black text-opacity-60">
+                      {item.name}
+                    </h1>
+                    <button className="flex items-center gap-2">
+                      <a href={item.url}>view project</a>
+                      <HiArrowSmRight />
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className=" border bg-white">
-                <img
-                  className=" w-full  h-80"
-                  src="/assets/banner.png"
-                  alt="banner"
-                />
-                <div className="my-10 mt-7 px-4">
-                  <h1 className="font-semibold text-sm lg:text-lg headline">
-                    WEB DESIGN
-                  </h1>
-                  <h1 className="my-4 font-bold text-black text-opacity-60">
-                    joggr Website Design
-                  </h1>
-                  <button className="flex items-center gap-2">
-                    View project
-                    <HiArrowSmRight />
-                  </button>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-              <div className=" border bg-white">
-                <img
-                  className=" w-full  h-80"
-                  src="/assets/banner.png"
-                  alt="banner"
-                />
-                <div className="my-10 mt-7 px-4">
-                  <h1 className="font-semibold text-sm lg:text-lg headline">
-                    WEB DESIGN
-                  </h1>
-                  <h1 className="my-4 font-bold text-black text-opacity-60">
-                    joggr Website Design
-                  </h1>
-                  <button className="flex items-center gap-2">
-                    View project
-                    <HiArrowSmRight />
-                  </button>
-                </div>
-              </div>
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-              <div className=" border bg-white">
-                <img
-                  className=" w-full  h-80"
-                  src="/assets/banner.png"
-                  alt="banner"
-                />
-                <div className="my-10 mt-7 px-4">
-                  <h1 className="font-semibold text-sm lg:text-lg headline">
-                    WEB DESIGN
-                  </h1>
-                  <h1 className="my-4 font-bold text-black text-opacity-60">
-                    joggr Website Design
-                  </h1>
-                  <button className="flex items-center gap-2">
-                    View project
-                    <HiArrowSmRight />
-                  </button>
-                </div>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
-
-        {/* <div className="flex justify-end mt-6">
-          <button className="bg-white p-3">
-            <MdKeyboardArrowLeft size={24} />
-          </button>
-          <button className="bg-white p-3">
-            <MdKeyboardArrowRight size={24} />
-          </button>
-        </div> */}
       </div>
     </div>
   );
