@@ -34,7 +34,7 @@ export default function Navabar() {
             </div>
             {open ? null : (
               <button onClick={handleOpenModal} className="lg:hidden">
-                <FaBars size={17} />
+                <FaBars size={20} />
               </button>
             )}
           </div>

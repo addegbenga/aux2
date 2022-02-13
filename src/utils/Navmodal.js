@@ -40,7 +40,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
           >
             <button
               onClick={handleCloseModal}
-              className=" z-20 transform ease-out duration-100  absolute bg-white flex items-center justify-center rounded-full z-50 right-12 h-10 w-10  top-4"
+              className=" z-20 transform ease-out duration-100 delay-200  absolute bg-white flex items-center justify-center rounded-full z-50 right-3 h-10 w-10  top-4"
             >
               <FaTimes />
             </button>
@@ -55,27 +55,21 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
             leaveFrom="opacity-100 scale-100"
             leaveTo="  -translate-x-44 transform"
           >
-            <div className="w-2/3 absolute top-0  h-screen  p-6  overflow-hidden text-left transition-all transform bg-white shadow-xl ">
-              <Dialog.Title
-                as="h3"
-                className="text-lg font-medium leading-6 text-gray-900"
-              >
-                Payment successful
-              </Dialog.Title>
-              <div className="mt-2">
-                <p className="text-sm text-gray-500">
-                  Your payment has been successfully submitted. We’ve sent you
-                  an email with all of the details of your order.
-                </p>
+            <div className="w-10/12 absolute top-0  h-screen  p-6  overflow-hidden text-left transition-all transform bg-white  shadow-xl ">
+              <div className="mt-10 flex flex-col gap-5 text-black">
+                <h1 className="text-3xl">Home</h1>
+                <h1 className="text-3xl">About</h1>
+                <h1 className="text-3xl">Services</h1>
+                <h1 className="text-3xl">Projects</h1>
               </div>
 
               <div className="mt-4">
                 <button
                   type="button"
-                  className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                  className="inline-flex justify-center px-10 py-4 text-sm font-medium text-white bg-black border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                   onClick={handleCloseModal}
                 >
-                  Got it, thanks!
+                  Contact me
                 </button>
               </div>
             </div>
