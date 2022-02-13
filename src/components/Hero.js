@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <div className="flex gap-2 ">
           <button className="bg-black shadow gap-1 flex items-center rounded text-white lg:p-4  lg:px-10 p-4 px-10">
-            <span>Book a call</span>
+            <a href="mailto:addegbenga@gmail.com">Book a call</a>
           </button>
           <button className="border gap-2 shadow flex items-center rounded lg:p-4 lg:px-10 text-black p-2 px-6">
             <span>

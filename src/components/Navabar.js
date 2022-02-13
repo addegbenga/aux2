@@ -32,9 +32,11 @@ export default function Navabar() {
                 <a href="#blog">Blog</a>
               </ul>
             </div>
-            <button onClick={handleOpenModal} className="lg:hidden">
-              <FaBars size={22} />
-            </button>
+            {open ? null : (
+              <button onClick={handleOpenModal} className="lg:hidden">
+                <FaBars size={17} />
+              </button>
+            )}
           </div>
         </div>
       </nav>

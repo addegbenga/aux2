@@ -31,7 +31,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
           </span>
           <Transition.Child
             as={Fragment}
-            enter="ease-out duration-300"
+            enter="ease-out duration-100"
             enterFrom="opacity-0  scale-75 transform "
             enterTo="opacity-100 scale-100"
             leave="ease-in duration-200"
@@ -40,7 +40,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
           >
             <button
               onClick={handleCloseModal}
-              className=" z-20 transform ease-out duration-100 delay-200 absolute bg-white flex items-center justify-center rounded-full z-50 right-12 h-10 w-10  top-4"
+              className=" z-20 transform ease-out duration-100  absolute bg-white flex items-center justify-center rounded-full z-50 right-12 h-10 w-10  top-4"
             >
               <FaTimes />
             </button>

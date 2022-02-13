@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <h1 className="text-white text-2xl ">adeyem.dev</h1>
             <p className="text-white text-opacity-50 my-2">
-              4354 Delewrae Avenue. San Francisco,USA
+              4354 Alakuko. Lagos, Nigeria
             </p>
             <span className="text-white text-opacity-50">hi@thefolio.com</span>
           </div>

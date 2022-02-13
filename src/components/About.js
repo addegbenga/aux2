@@ -86,7 +86,7 @@ export default function About() {
               </div>
 
               <ul className="list-disc px-4 mt-4">
-                <li>2022-present</li>
+                <li>2022-2022</li>
               </ul>
             </div>
             <span>
@@ -111,7 +111,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc lg:text-right px-4 mt-4">
-                <li>2022 - Current</li>
+                <li>2022 - 2022</li>
               </ul>
             </div>
             <span>
@@ -121,8 +121,8 @@ export default function About() {
           <div className="flex lg:gap-6    justify-between  border-b py-8">
             <div className="flex  flex-col lg:w-full lg:justify-between lg:items-end lg:flex-row gap-2">
               <div className="flex gap-3">
-                <div className="h-10 w-10 flex items-center justify-center bg-red-200 rounded-full">
-                  M
+                <div className="h-10 w-10 flex items-center justify-center bg-indigo-200 rounded-full">
+                  L
                 </div>
                 <div className="flex flex-col">
                   <h1 className="text-xl lg:text-2xl">Lenx</h1>
@@ -130,7 +130,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc lg:text-right px-4 mt-4">
-                <li>2020-2021 </li>
+                <li>2020 - 2021 </li>
               </ul>
             </div>
             <span>
@@ -140,8 +140,8 @@ export default function About() {
           <div className="flex lg:gap-6    justify-between  border-b py-8">
             <div className="flex  flex-col lg:w-full lg:justify-between lg:items-end lg:flex-row gap-2">
               <div className="flex gap-3">
-                <div className="h-10 w-10 flex items-center justify-center bg-red-200 rounded-full">
-                  M
+                <div className="h-10 w-10 flex items-center justify-center bg-gray-200 rounded-full">
+                  U
                 </div>
                 <div className="flex flex-col">
                   <h1 className="text-xl lg:text-2xl">Upwork Freelancer</h1>
@@ -149,7 +149,7 @@ export default function About() {
                 </div>
               </div>
               <ul className="list-disc lg:text-right px-4 mt-4">
-                <li>2019-2021 - part time</li>
+                <li>2019 - 2021</li>
               </ul>
             </div>
             <span>
