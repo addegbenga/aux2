@@ -18,7 +18,7 @@ export default function Blogs() {
           <div className="text-white my-14 border-b pb-7 lg:max-w-2xl border-opacity-40 border-white ">
             <p className="text-white text-opacity-70">April 16, 2021 6mins</p>
             <h1 className="text-2xl my-5 font-semibold lg:text-3xl">
-              Design tips for designers, that cover evrthing you need
+              Design tips for designers, that cover everything you need
             </h1>
             <button className="flex lg:text-lg text-white items-center gap-2">
               Read the article
@@ -28,7 +28,7 @@ export default function Blogs() {
           <div className="text-white my-14 border-b pb-7 lg:max-w-2xl border-opacity-40 border-white ">
             <p className="text-white text-opacity-70">April 16, 2021 6mins</p>
             <h1 className="text-2xl my-5 font-semibold lg:text-3xl">
-              Design tips for designers, that cover evrthing you need
+              Introduction to web3 development
             </h1>
             <button className="flex lg:text-lg text-white items-center gap-2">
               Read the article
@@ -38,7 +38,7 @@ export default function Blogs() {
           <div className="text-white my-14 border-b pb-7 lg:max-w-2xl border-opacity-40 border-white ">
             <p className="text-white text-opacity-70">April 16, 2021 6mins</p>
             <h1 className="text-2xl my-5 font-semibold lg:text-3xl">
-              Design tips for designers, that cover evrthing you need
+              Starting your journey as a web developer
             </h1>
             <button className="flex lg:text-lg text-white items-center gap-2">
               Read the article

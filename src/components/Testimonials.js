@@ -47,7 +47,7 @@ export default function Testimonials() {
               </svg>
               <p className="text-2xl my-6 font-bold lg:leading-[3rem] lg:text-[2.7rem]">
                 Jade helped us build a software so intuitive that it didn't need
-                a walkthrough. He solved complex problems with brilliant design.
+                a walkthrough. He solved complex problems with the best tools.
               </p>
             </div>
             <div className="flex justify-between">

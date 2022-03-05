@@ -23,9 +23,9 @@ export default function Services() {
           </p>
           <div className="px-4">
             <ul className="list-disc flex lg:text-lg flex-col gap-3">
-              <li className="font-semibold ">Design Strategy</li>
-              <li className="font-semibold">Web and Mobile App Design</li>
-              <li className="font-semibold">Front-end Developement</li>
+              <li className="font-semibold ">Front-end Development</li>
+              <li className="font-semibold">Web3 Development</li>
+              <li className="font-semibold">Backend Development</li>
             </ul>
           </div>
         </div>
@@ -35,31 +35,31 @@ export default function Services() {
             Application i'm fluent with
           </h1>
           <p className="mb-6 mt-2 lg:text-lg">
-            faster, better products that your users love. Here's all the
-            services provides
+            Every developer needs the right tools to do the perfect job.
+            Thankfully, I'm multilingual.
           </p>
           <div className="px-4">
             <ul className="list-disc flex  lg:text-lg flex-col gap-3">
-              <li className="font-semibold ">Design Strategy</li>
-              <li className="font-semibold">Web and Mobile App Design</li>
-              <li className="font-semibold">Front-end Developement</li>
+              <li className="font-semibold ">Nextjs</li>
+              <li className="font-semibold">Nodejs</li>
+              <li className="font-semibold">React</li>
             </ul>
           </div>
         </div>{" "}
         <div className="mb-14">
           <img className="my-4" src="/assets/icon3.svg" alt="icon" />
           <h1 className="text-lg lg:text-xl font-semibold">
-            What i can do for you
+            What you can expect
           </h1>
           <p className="mb-6 mt-2 lg:text-lg">
-            faster, better products that your users love. Here's all the
-            services provides
+            I develop products that are more than pretty. I make them shippable
+            and usable.
           </p>
           <div className="px-4">
             <ul className="list-disc lg:text-lg flex flex-col gap-3">
-              <li className="font-semibold ">Design Strategy</li>
-              <li className="font-semibold">Web and Mobile App Design</li>
-              <li className="font-semibold">Front-end Developement</li>
+              <li className="font-semibold ">Clean and functional</li>
+              <li className="font-semibold">Device and user friendly</li>
+              <li className="font-semibold">Efficient and maintainable</li>
             </ul>
           </div>
         </div>

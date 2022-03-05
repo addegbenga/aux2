@@ -13,9 +13,9 @@ export default function About() {
           </h1>
         </div>
         <p className="my-7 lg:max-w-2xl lg:text-xl">
-          Over the past 12 years, I've worked with a diverse range of clients,
-          from startups to Fortune 500 companies. I love crafting interfaces
-          that delight users and help businesses grow.
+          Over the past 4 years, I've worked with a diverse range of clients,
+          from startups to growing companies. I love crafting interfaces that
+          delight users and help businesses grow.
         </p>
         <button className="bg-black lg:hidden text-white p-4 px-6">
           Download cv

@@ -25,8 +25,8 @@ export const projectData = [
   },
   {
     title: "Web Development",
-    name: "Udemy lite",
-    img: "",
-    url: "https://skillup.vercel.app/",
+    name: "pancakeswap lite",
+    img: "/assets/psn.png",
+    url: "https://beancake-swap.vercel.app/",
   },
 ];

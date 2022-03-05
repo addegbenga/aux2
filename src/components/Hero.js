@@ -10,12 +10,12 @@ export default function Hero() {
     >
       <div className=" lg:mt-32 mb-0 lg:max-w-3xl">
         <h1 className="text-[2.5rem] leading-[3.3rem] lg:leading-[6rem] lg:text-[5.1rem] lg:fontbold font-extrabold">
-          <span className="text-black headline">I design products</span> that
-          delight and inspire people.
+          <span className="text-black headline">I build products</span> that
+          solves user's problems.
         </h1>
         <p className="my-6 lg:text-xl mb-10">
-          Hi! I'm jake, a frontend developer based in nigeria. I create
-          user-frindly interfaces for fast growing and established companies
+          Hi! I'm Ade, a full stack developer based in nigeria. I create
+          user-friendly interfaces for fast growing and established companies
         </p>
         <div className="flex gap-2 ">
           <button className="bg-black shadow gap-1 flex items-center rounded text-white lg:p-4  lg:px-10 p-4 px-10">
