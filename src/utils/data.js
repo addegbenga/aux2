@@ -9,7 +9,7 @@ export const projectData = [
     title: "Web Development",
     name: "Linktree lite",
     img: "/assets/mobile (3).png",
-    url: "https://qwikker.netlify.app/register",
+    url: "https://qwikker.netlify.app",
   },
   {
     title: "Web Development",
