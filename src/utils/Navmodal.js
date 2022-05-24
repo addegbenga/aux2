@@ -9,7 +9,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
         className="fixed inset-0 z-20 overflow-y-auto"
         onClose={handleCloseModal}
       >
-        <div className="min-h-screen relative text-center">
+        <div className="relative min-h-screen text-center">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -19,7 +19,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Dialog.Overlay className="fixed bg-black bg-opacity-80 inset-0" />
+            <Dialog.Overlay className="fixed inset-0 bg-black bg-opacity-80" />
           </Transition.Child>
 
           {/* This element is to trick the browser into centering the modal contents. */}
@@ -40,7 +40,7 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
           >
             <button
               onClick={handleCloseModal}
-              className=" z-20 transform ease-out duration-100 delay-200  absolute bg-white flex items-center justify-center rounded-full z-50 right-3 h-10 w-10  top-4"
+              className="absolute z-20 z-50 flex items-center justify-center w-10 h-10 duration-100 ease-out delay-200 transform bg-white rounded-full right-3 top-4"
             >
               <FaTimes />
             </button>
@@ -55,12 +55,21 @@ export default function Navmodal({ isOpen, handleCloseModal }) {
             leaveFrom="opacity-100 scale-100"
             leaveTo="  -translate-x-44 transform"
           >
-            <div className="w-10/12 absolute top-0  h-screen  p-6  overflow-hidden text-left transition-all transform bg-white  shadow-xl ">
-              <div className="mt-10 flex flex-col gap-5 text-black">
-                <h1 className="text-3xl">Home</h1>
-                <h1 className="text-3xl">About</h1>
-                <h1 className="text-3xl">Services</h1>
-                <h1 className="text-3xl">Projects</h1>
+            <div className="absolute top-0 w-10/12 h-screen p-6 overflow-hidden text-left transition-all transform bg-white shadow-xl ">
+              <div className="flex flex-col gap-5 mt-10 text-black">
+                <h1 onClick={handleCloseModal} className="text-3xl">
+                  <a href="#home">Home</a>
+                </h1>
+                <h1 onClick={handleCloseModal} className="text-3xl">
+                  <a href="#about">About</a>
+                </h1>
+                <h1 onClick={handleCloseModal} className="text-3xl">
+                  <a href="#service">Services</a>
+                </h1>
+                <h1 onClick={handleCloseModal} className="text-3xl">
+                  Projects
+                  <a href="#project">Projects</a>
+                </h1>
               </div>
 
               <div className="mt-4">

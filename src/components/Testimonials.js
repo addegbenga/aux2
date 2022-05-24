@@ -4,17 +4,21 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Testimonials() {
   return (
-    <div className="px-3 mb-44 container mx-auto">
+    <div className="container px-3 mx-auto mb-44">
       <div>
         <h1 className="text-2xl font-semibold headline lg:text-3xl">
           TESTIMONIALS
         </h1>
-        <h1 className="text-3xl font-bold my-3 lg:text-5xl">
+        <h1 className="my-3 text-3xl font-bold lg:text-5xl">
           Word on the street
         </h1>
-        <div className="mt-20 lg:flex gap-20">
-          <img className="lg:w-2/5" src="/assets/testify1.jpeg" alt="testify" />
-          <div className="lg:flex lg:flex-col justify-between">
+        <div className="gap-20 mt-20 lg:flex">
+          <img
+            className="lg:w-[25rem]"
+            src="/assets/testify1.jpeg"
+            alt="testify"
+          />
+          <div className="justify-between lg:flex lg:flex-col">
             <div className="my-10">
               <svg
                 width="49"
@@ -56,10 +60,10 @@ export default function Testimonials() {
                 <p className="lg:text-xl">Founder</p>
               </div>
               <div className="flex justify-end">
-                <button className="bg-black p-3">
+                <button className="p-3 bg-black">
                   <MdKeyboardArrowLeft color="white" size={24} />
                 </button>
-                <button className="bg-black p-3">
+                <button className="p-3 bg-black">
                   <MdKeyboardArrowRight color="white" size={24} />
                 </button>
               </div>
