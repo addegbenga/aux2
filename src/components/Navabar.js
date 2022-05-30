@@ -14,15 +14,15 @@ export default function Navabar() {
   return (
     <>
       <Navmodal isOpen={open} handleCloseModal={handleCloseModal} />
-      <nav className="w-full">
-        <div className="flex px-3 py-6  border-b   w-full left-0 bg-white fixed z-10   top-0">
-          <div className="flex justify-between items-center  w-full container  mx-auto">
-            <h1 className="font-bold text-xl lg:text-2xl  headline font-black">
+      <nav className="w-full bg-white">
+        <div className="fixed top-0 left-0 z-10 flex w-full px-3 py-6 bg-white border-b">
+          <div className="container flex items-center justify-between w-full mx-auto">
+            <h1 className="text-xl font-bold font-black lg:text-2xl headline">
               <a href="#home">adev</a>
               <span className="headline">.</span>
             </h1>
             <div className="hidden lg:block ">
-              <ul className="lg:flex font-bold gap-20">
+              <ul className="gap-20 font-bold lg:flex">
                 <a href="#about">About</a>
 
                 <a href="#service">Services</a>
